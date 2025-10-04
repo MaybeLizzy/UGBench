@@ -1,11 +1,11 @@
-# UGBench
+# PerMU
 
-This repository contains the official implementation of the paper "[Erasing Without Remembering: Safeguarding Knowledge Forgetting in Large Language Models](https://arxiv.org/pdf/2502.19982)".
+This repository contains the official implementation of the paper "[Erasing Without Remembering: Implicit Knowledge Forgetting in Large Language Models](https://arxiv.org/pdf/2502.19982)".
 
 
 ## Overview
 
-**UGBench** is a generalisation evaluation benchmark tailored for LLM-based machine unlearning. UGBench provides an unbiased assessment of existing methods in forgetting in-scope unlearning samples. The benchmark spans three data domains: two widely-used machine unlearning datasets, TOFU and the Harry Potter books, as well as a popular model editing dataset, ZsRE. Evaluations are performed on 14 existing methods using two language models of different scales, Phi-1.3B and LLaMA2-7B. 
+We provide an unbiased assessment of existing methods in forgetting in-scope implicit unlearning samples. The evaluation spans three data domains: two widely-used machine unlearning datasets, TOFU and the Harry Potter books, as well as a popular model editing dataset, ZsRE. Evaluations are performed on 14 existing methods using two language models of different scales, Phi-1.3B and LLaMA2-7B. 
 
 Despite significant progress in LLM-based unlearning, we identify an embarrassingly simple yet critical dilemma: *existing machine unlearning methods consistently exhibit a lack of generalisation.* 
 
